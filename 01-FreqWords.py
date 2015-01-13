@@ -34,8 +34,8 @@ max_freq = max(d.values())
 
 print max_freq
 answer = [kmer for kmer, freq in d.items() if freq == max_freq]
-print answer
-#print(' '.join(answer))
+#print answer
+print(' '.join(answer))
 
 
 
